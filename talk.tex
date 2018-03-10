@@ -234,20 +234,6 @@
   \end{figure}  
 }
 
-%% \frame{
-%%   \frametitle{Workflow - \textit{RNA} family model construction}
-%%   \begin{itemize}
-%%   \item RNA family model construction
-%%   \end{itemize}
-%%    \begin{figure}
-%%      \centering
-%%     \only<1>{\includegraphics[width=0.7\textwidth]{figures/modelconstruction_Workflow1.eps}}
-%%     \only<2>{\includegraphics[width=0.7\textwidth]{figures/modelconstruction_Workflow2.eps}}
-%%     \only<3>{\includegraphics[width=0.7\textwidth]{figures/modelconstruction_Workflow3.eps}}
-%%     \only<4>{\includegraphics[width=0.7\textwidth]{figures/modelconstruction_Workflow4.eps}}
-%%   \end{figure}
-%% }
-
 \frame{
   \frametitle{Workflow - \textit{RNA} family model construction}
   \begin{itemize}
@@ -292,7 +278,54 @@
   \end{figure}
 }
 
+\frame{
+  \frametitle{Workflow - RNA-seq analysis}
+  \begin{itemize}
+  \item Test for differential gene expression
+  \item Quality control - Trim Galore
+  \item Mapping \& Annotation - HISAT2
+  \item Differential expression - DESeq2
+  \end{itemize}
+  %Workflow Figure
+  }
 
+\frame{
+  \frametitle{Workflow - AREsite2\_CLIP\_analysis}
+  \begin{itemize}
+  \item Analyze CLIP data for AU-rich binding motifs
+  \item Retrieve motifs from ARE-site2
+  \item Intersect with experiment data
+  \end{itemize}
+  %Workflow Figure
+  }
+
+\frame{
+  \frametitle{Workflow - PAR-CLIP analysis}
+  \begin{itemize}
+  \item Map interaction sites of RNA-binding proteins
+  \item Quality control - Trim Galore
+  \item Mapping - Bowtie2
+  \item Binding site identification - PARalyzer
+  \end{itemize}
+  %Workflow Figure
+  }
+
+ \frame{
+  \frametitle{Workflow - Scan for C\/D-box sequences}
+  \begin{itemize}
+  \item Find, extract, filter, extract boxes
+  \end{itemize}
+  %Workflow Figure
+  } 
+  
+\frame{
+  \frametitle{Visualisation}
+  \begin{itemize}
+  \item General purpose bar chart scatter plot
+  \item Connection to IGV, UCSC genome browsers
+  \item Specific \textit{RNA} visualisation Dot plot, dot-bracket, tertiary structure (3D)
+  \end{itemize}  
+ }
 
 \frame{
   \frametitle{Training \& Usage}
@@ -327,17 +360,6 @@
   %% \item<4-> Continious integration (CI) - testing
   %% \end{itemize}
 
-
-%% \frame{
-%%   \frametitle{Visualisation}
-%%   \begin{itemize}
-%%   \item General purpose bar chart scatter plot
-%%   \item Connection to IGV, UCSC genome browsers
-%%   \item Specific \textit{RNA} visualisation Dot plot, dot-bracket, tertiary structure (3D)
-%%   \end{itemize}  
-%% }
-
-
 %\frame{
 %  \frametitle{Using the workbench}
 %  \begin{itemize}
@@ -353,13 +375,5 @@
   \includegraphics[width=0.9\textwidth]{figures/funding.eps}
 }
 
-\frame{
-  \frametitle{RNA-seq analysis: trimming, mapping and read count}
-  \begin{itemize}
-  \item Test for differential gene expression
-  \item Quality control - Mapping \& Annotation - Differential expression
-  \item Template for customized workflows
-  \end{itemize}
-  %Workflow Figure
-}
+
 \end{document}
