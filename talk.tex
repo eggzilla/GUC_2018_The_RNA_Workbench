@@ -369,23 +369,24 @@
 }
 
 \frame{
-  \frametitle{Workflow - AREsite2\_CLIP\_analysis}
+  \frametitle{Workflows - CLIP analysis}
   \begin{itemize}
-  \item Analyze CLIP data for AU-rich binding motifs
-  \item Retrieve motifs from ARE-site2
-  \item Intersect with experiment data
-  \item Rank by accessibilty 
-  \end{itemize}
-  %Workflow Figure
-}
-
-\frame{
-  \frametitle{Workflow - PAR-CLIP analysis}
-  \begin{itemize}
-  \item Map interaction sites of RNA-binding proteins
-  \item Quality control - Trim Galore
-  \item Mapping - Bowtie2
-  \item Binding site identification - PARalyzer
+  \item<1-> PAR-CLIP analyse interaction sites of RNA-binding proteins
+      %\item Quality control - Trim Galore
+  %\item Mapping - Bowtie2
+  %\item Binding site identification - PARalyzer
+     \begin{figure}
+     \centering
+     \includegraphics[width=\textwidth]{figures/par_clip_seq_workflow.eps}
+  \end{figure}
+   \item<2-> AREsite2 analyse CLIP data for AU-rich binding motifs
+   \begin{figure}
+     \centering
+     \includegraphics[width=\textwidth]{figures/are_site_workflow.eps}
+  \end{figure}
+  %\item Retrieve motifs from ARE-site2
+  %\item Intersect with experiment data
+  %\item Rank by accessibilty 
   \end{itemize}
   %Workflow Figure
 }
