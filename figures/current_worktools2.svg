@@ -14,8 +14,11 @@
    viewBox="0 0 225.60644 78.369972"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="current_worktools2.svg">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="current_worktools2.svg"
+   inkscape:export-filename="/home/egg/current/Talks/GUC_2018_The_RNA_Workbench/figures/current_worktools2.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70910507"
-     inkscape:cx="261.29548"
+     inkscape:cx="-23.570626"
      inkscape:cy="101.6506"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -37,11 +40,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="960"
+     inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <sodipodi:guide
        position="-29.595088,28.397356"
@@ -167,7 +170,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -216,7 +219,7 @@
            style="font-size:6.3499999px;stroke-width:0.26458332"
            y="22.003443"
            x="-54.626137"
-           sodipodi:role="line">RNA -Protein</tspan><tspan
+           sodipodi:role="line">RNA-Protein</tspan><tspan
            id="tspan2460"
            style="font-size:6.3499999px;stroke-width:0.26458332"
            y="29.717701"
@@ -244,31 +247,23 @@
            x="-4.5194478"
            sodipodi:role="line">RNA Alignment</tspan></text>
     </g>
-    <g
-       id="g2586">
-      <path
-         sodipodi:nodetypes="ccccc"
-         id="rect1148-1-7-0-3-6"
-         d="M -60.657597,37.005879 H 46.152616 V 74.445243 H -60.657597 Z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text2436-4-7"
-         y="54.235729"
-         x="-27.052832"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan2438-3-1"
-           style="font-size:6.3499999px;stroke-width:0.26458332"
-           y="54.235729"
-           x="-27.052832"
-           sodipodi:role="line">RNA -Protein</tspan><tspan
-           id="tspan2460-3"
-           style="font-size:6.3499999px;stroke-width:0.26458332"
-           y="61.949986"
-           x="-27.052832"
-           sodipodi:role="line">Annotation</tspan></text>
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.46499997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M -60.657597,37.005879 H 46.152616 V 74.445243 H -60.657597 Z"
+       id="rect1148-1-7-0-3-6"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-32.474205"
+       y="58.092857"
+       id="text2436-4-7"><tspan
+         sodipodi:role="line"
+         x="-32.474205"
+         y="58.092857"
+         style="font-size:6.3499999px;stroke-width:0.26458332"
+         id="tspan2460-3">RNA Annotation</tspan></text>
     <g
        id="g2580">
       <path
